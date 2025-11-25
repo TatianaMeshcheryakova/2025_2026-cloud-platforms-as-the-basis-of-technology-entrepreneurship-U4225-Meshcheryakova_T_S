@@ -57,7 +57,7 @@ Date of finished: 25.11.2025
 3.  **Присвоение роли:** Я назначила SA роль **`Storage Admin`**.
     * **Логика IAM:** Эта роль дает полные права на чтение и запись объектов в Cloud Storage, что является **обязательным** для успешного выполнения команды копирования на Шаге 6.
     ![Скриншот 133.png — Назначение Service Account роли Storage Admin](133.png)
-    ![Скриншот 134.jpg — Созданный Service Account tmescheryakova-sa-lab1](134.jpg)
+    ![Скриншот 134.jpg — Созданный Service Account tmescheryakova-sa-lab1](134.png)
 
 ---
 
@@ -71,9 +71,9 @@ Date of finished: 25.11.2025
     * **Тип:** `e2-micro` (минимальный и экономичный).
     * **Режим:** **Spot VM** (для экономии средств, так как VM нужна ненадолго).
 3.  **Настройка доступа:** В разделе **"Identity and API access"** я привязала Service Account `tmescheryakova-sa-lab1` к VM, чтобы машина могла действовать от его имени.
-    ![Скриншот 135.jpg — Настройка доступа API: привязка SA к VM и полный доступ к Cloud API](135.jpg)
+    ![Скриншот 135.jpg — Настройка доступа API: привязка SA к VM и полный доступ к Cloud API](135.png)
 4.  **Запуск:** После успешного создания VM перешла в статус **Running**.
-    ![Скриншот 136.jpg — Запущенная VM tmescheryakova-vm-lab1, готовая к SSH-подключению](136.jpg)
+    ![Скриншот 136.jpg — Запущенная VM tmescheryakova-vm-lab1, готовая к SSH-подключению](136.png)
 
 ---
 
@@ -125,7 +125,7 @@ Date of finished: 25.11.2025
     ![Скриншот 142.png — Остановка VM перед удалением](142.png)
     ![Скриншот 143.png — Подтверждение успешного удаления VM](143.png)
 2.  **Удаление Service Account:** Я удалила Service Account `tmescheryakova-sa-lab1`.
-    ![Скриншот 144.jpg — Подтверждение удаления Service Account](144.jpg)
+    ![Скриншот 144.jpg — Подтверждение удаления Service Account](144.png)
 
 ---
 
